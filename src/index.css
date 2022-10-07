@@ -1,13 +1,210 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.title,
+.author,
+body{
+    font-family: Ubuntu;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+.learnquote{
+    display: flex;
+}
+.des
+{
+    position: absolute;
+    margin-top: 150px;
+    font-size: 30px;
+    margin-left: 30px;
+    font-family: Poppins;
+}
+.careerlogo{
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 130px;
+}
+.career{
+    height: 120px;
+}
+.home{
+    background-size: 100%;
+}
+.courses{
+    font-family: Poppins;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.jslogo{
+    height:300px;
+    width: 250px;
+    margin-left: 30px;
+    margin-top:20px;
+    
+}
+.jstext{
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.jstext2{
+
+    margin-left: 30px;
+    font-size: 14px;
+    margin-top: 3px;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.checked{
+    color: orange;
+}
+.starrate{
+    margin-left: 28px;
+    margin-top: 3px;
+} 
+.rupees{
+    margin-left: 28px;
+    margin-top: 3px;
+}
+.addbtn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 54px;
+    padding-right: 54px;
+    background-color: darkorchid;
+    color: white;
+    font-family:   Ubuntu;
+    border: none;
+    font-size: 15px;
+    margin-left: 28px;
+    margin-top: 9px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.addbtn:hover{
+    background-color: black;
+}
+/* .addbtn:active{
+
+    opacity:0.19;
+
+} */
+/*.course1,
+.course2,
+.course3,
+.course4,
+.course5,
+.course6,
+.course7,
+.course8{
+   display: inline-block;
+   margin-top: 40px;
+   margin-bottom: 100px;
+}*/
+
+.course1{
+    margin-left: 0px;
+   
+}
+.course2,
+.course3,
+.course4,
+.course6,
+.course7,
+.course8{
+
+    margin-left: 0px;
+}
+.course5{
+    margin-left: 0px;
+}
+.top{
+    font-size: 23px;
+    font-family: Poppins;
+    margin-top: 30px;
+    margin-left: 39px;
+    font-weight: bold;
+}
+.fa-users{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.learners{
+    font-weight: lighter;
+    font-size: 16px;
+    font-family: Poppins;
+}
+.learnerdiv{
+    display: inline-block;
+}
+h3{
+    font-weight: lighter;
+}
+.course-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-left:90px;
+    grid-row-gap: 50px;
+    /*flex-direction: row;/*
+    /*row-gap: 90px;
+    margin-bottom: 40px;*/
+}
+.title{
+    font-family: Ubuntu;
+    text-align: center;
+    margin:40px;
+}
+body{
+    background-color: rgba(237,237,237,255);
+    margin-bottom:200px;
+}
+.login-btn{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+    background-color: #ff571e;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 740px;
+    font-size: 14px;
+    transition: 0.40s;
+
+}
+.login-btn:hover{
+    color:white;
+    background-color: black;
+}
+.signlog{
+    margin-left:256px;
+}
+.signup-btn{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 40px;
+    padding-left: 40px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    margin-left: 865px;
+    font-size: 14px;
+    transition:  0.40s;
+
+}
+.signup-btn:hover{
+    color: white;
+    background-color: #ff571e;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
